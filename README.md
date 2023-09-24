@@ -27,4 +27,4 @@ To add a custom message, enter the message text in the "Message" field.
 When the current time matches the alarm time, the selected ringtone will play and the custom message will be displayed in a message box.
 
 To quit the alarm clock, click the "Quit" button.
-![Alt text](image.png)
+![Alt text](https://github.com/hadeeribraheem/alarm_clock/blob/09774eeb9373ad8767bee94c44ecdc1567be0668/image.png)
