@@ -15,9 +15,9 @@ class AlarmClock:
         self.ringtones_list = ['jaz', 'wakeup', 'motivational']
 
         self.ringtones_path = {
-            'motivational': 'alarm_project/alarm_tones/motivational.mp3',
-            'jaz': 'alarm_project/alarm_tones/Swing Jazz.mp3',
-            'wakeup': 'alarm_project/alarm_tones/wakeup.mp3'
+            'motivational': 'alarm_tones/motivational.mp3',
+            'jaz': 'alarm_tones/Swing Jazz.mp3',
+            'wakeup': 'alarm_tones/wakeup.mp3'
         }
 
         self.root = customtkinter.CTk()
@@ -25,7 +25,7 @@ class AlarmClock:
         self.root.geometry("360x350")
         self.root.resizable(0, 0)
 
-        rootBackground = open("alarm_project/images/BGgenerated.jpg")
+        rootBackground = open("images/BGgenerated.jpg")
         size = 500, 500
         rootBackground.thumbnail(size)
         self.background = ImageTk.PhotoImage(rootBackground)
@@ -64,7 +64,7 @@ class AlarmClock:
         self.ringtone_combo.current(0)
         self.ringtone_combo.place(relx=0.35, rely=0.447)
 
-        testMusic_img = open('alarm_project/images/speaker.png')
+        testMusic_img = open('images/speaker.png')
         self.testMusic_btn = ImageTk.PhotoImage(testMusic_img)
         self.testMusic = customtkinter.CTkButton(self.root,
                                     image=self.testMusic_btn,
@@ -137,7 +137,6 @@ class AlarmClock:
 
     def start_alarm(self,alarm_time):
         while True:
-            # Getting current time by using .striftime() method of the datetime module's datetime file's now function
             current_time = datetime.datetime.now().strftime("%H:%M:%S")
             print(current_time)
 
@@ -153,12 +152,19 @@ class AlarmClock:
                 break 
                             
     def alarm_time(self):
+        # Get the hour and minute values from the user input
         hour = self.hour.get()
         minute = self.minutes.get()
+        
         set_alarm = f"{hour}:{minute}:00"
+        
+        # Create a list of seconds for hours, minutes, and seconds
         seconds_hms = [3600, 60, 1]
+        
         current_time = datetime.datetime.now()
-        currentTimeInSeconds = sum([a*b for a,b in zip(seconds_hms, [current_time.hour, current_time.minute, current_time.second])])
+        
+        # Convert the current time into seconds
+        currentTimeInSeconds = sum([hms_sec * current_time_unit for hms_sec, current_time_unit in zip(seconds_hms, [current_time.hour, current_time.minute, current_time.second])])
         alarmSeconds = sum([a*b for a,b in zip(seconds_hms[:2], [hour,minute])])
         
         secondsUntilAlarm = alarmSeconds - currentTimeInSeconds
