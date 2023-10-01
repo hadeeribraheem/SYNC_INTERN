@@ -1,29 +1,15 @@
-# Alarm Clock
+# SYNC INTERN'S
 
-This is a Python project that implements an alarm clock using the `datetime`,`customtkinter` ,`tkinter`, `PIL`,`time`,`threading`, and `pygame` libraries. The alarm clock allows the user to set an alarm time, choose a ringtone, and add a custom message to be displayed when the alarm goes off.
+This repository contains the virtual internship tasks for Sync Intern's Python Internship. The internship includes the following projects:
 
-## Installation
+1. **Build an Alarm Clock**: A Python program that allows users to set an alarm for a specific time and plays a sound when the alarm goes off.
 
-To run this project, you will need to have Python 3 installed on your computer. You can download Python from the official website: https://www.python.org/downloads/
+2. **OTP Verification**: A Python program that generates a random OTP and sends it to the user via email or SMS. The user can then enter the OTP to verify their identity.
 
-You will also need to install the following libraries using pip:
+3. **URL Shortener**: A Python program that shortens a long URL into a shorter, more manageable URL. This can be useful for sharing links on social media or in emails.
 
-```
-pip install Pillow
-pip install pygame
-pip install customtkinter
-```
+4. **Chatbot**: A Python program that uses natural language processing (NLP) to simulate a conversation with a user. The chatbot can answer questions, provide information, and perform simple tasks.
 
-## Usage
+Each project is contained in its own directory and includes a README.md file with instructions on how to run the program and any dependencies required. 
 
-To use the alarm clock, run the `alarm_clock.py` file in a Python environment. This will open a graphical user interface (GUI) that allows you to set the alarm time, choose a ringtone, and add a custom message.
-
-To set the alarm time, use the drop-down menus to select the hour and minute, and click the "Set alarm" button. The alarm time will be displayed in the format "HH:MM:SS".
-
-To choose a ringtone, select one of the options from the "Ringtones" drop-down menu. You can preview the selected ringtone by clicking the speaker icon.
-
-To add a custom message, enter the message text in the "Message" field.
-
-When the current time matches the alarm time, the selected ringtone will play and the custom message will be displayed in a message box.
-
-To quit the alarm clock, click the "Quit" button.
+Feel free to explore the projects and modify the code to suit your needs. Happy coding!
