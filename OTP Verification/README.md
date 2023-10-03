@@ -35,4 +35,4 @@ You can customize the sender email and password, SMTP server, SMTP port, and ema
 
 You can also customize the GUI layout and design by modifying the `OTPVerificationGUI` class and the `customtkinter` module.
 
-![Screenshot from running the program](https://github.com/hadeeribraheem/SYNC_INTERN/blob/00a75cd3a09d9a9ef6d9cdd3674ee73fae172b47/OTP%20Verification/Background.jpg)
+![Screenshot from running the program](https://github.com/hadeeribraheem/SYNC_INTERN/blob/2975d99e2c59409059d50172df018a26a27cc33f/OTP%20Verification/running%20OTP%20verification.png)
