@@ -1,5 +1,3 @@
-Sure, here's a possible README.md file for the OTP Verification GUI project on Github:
-
 # OTP Verification GUI
 
 This is a Python project that provides a graphical user interface (GUI) for verifying one-time passwords (OTPs) sent via email. The GUI allows users to enter their email address, receive an OTP, and enter the OTP to verify their identity. The project uses the Gmail SMTP server to send email messages.
