@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "patterns": [
+        "what is your name?",
+        "what should I call you?"
+      ],
+      "responses": [
+        "I'm Giggles",
+        "Hey! I'm Giggles"
+      ]
+    },
+    {
+      "patterns": [
+        "how you doing?",
+        "how are you"
+      ],
+      "responses": [
+        "Thanks For Asking! How can I help you?"
+      ]
+    },
+    {
+      "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+      ],
+      "responses": [
+        "I was made by Hadeer Ibraheem"
+      ]
+    },
+    {
+      "patterns": [
+        "what are you doing",
+        "what are you upto"
+      ],
+      "responses": [
+        "Talking to you, of course!"
+      ]
+    },
+    {
+      "patterns": [
+        "who is she",
+        "who is that",
+        "who is hadeer"
+      ],
+      "responses": [
+        "Visit any of her social media profiles to find out! Linkedin: https://www.linkedin.com/in/hadeeribraheem/"
+      ]
+    },
+    {
+      "patterns": [
+        "how old are you",
+        "when were you made",
+        "what is your age"
+      ],
+      "responses": [
+        "I was made in 2023, I don't have a physical form or an age. I exist purely as a program running on computer. My purpose is to provide information and assist with tasks to the best of my abilities. How can I assist you today?"
+      ]
+    },
+    {
+      "patterns": [
+        "what is data analysis meaning?"
+      ],
+      "responses": [
+        "The meaning of data analysis refers to the process of examining, interpreting, and deriving insights from data to uncover patterns, trends, and relationships."
+      ]
+    }
+  ]
+}
