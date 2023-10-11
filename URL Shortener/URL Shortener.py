@@ -34,7 +34,7 @@ button = customtkinter.CTkButton(window,
 button.place(relx=0.26, rely=0.32)
 
 # Create the label to display the shortened URL
-result_label = customtkinter.CTkEntry(window, font=("ADLaM Display", 12),width=330,state="disabled")
+result_label = customtkinter.CTkEntry(window, font=("ADLaM Display", 12),width=330)
 result_label.place(relx=0.04, rely=0.41)
 
 # Start the main loop
